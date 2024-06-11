@@ -1,6 +1,10 @@
 function generarArrayBidimensional() {
+  function numeroAzar() {
+    return Math.floor(Math.random() * 10)
+  }
+
   function generarArray() {
-    return [0, 1, 2];
+    return Math.floor(Math.random() * 10)
   }
 
   var array = [];
